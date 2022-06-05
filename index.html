@@ -12,9 +12,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-info py-2">
+    <nav class="navbar navbar-expand-md navbar-dark bg-info py-3">
         <div class="container">
-            <a href="#" class="navbar-brand">logo</a>
+            <a href="index.html" class="navbar-brand">logo</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#ust-menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -22,26 +22,32 @@
             <div class="collapse navbar-collapse text-center" id="ust-menu">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">Anasayfa</a>
+                        <a href="index.html" class="nav-link">Anasayfa</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#form" class="nav-link mx-md-3">İletişim</a>
+                        <a href="iletisim.html" class="nav-link mx-md-3">İletişim</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle ml-2 ml-md-0" data-toggle="dropdown"
                             data-target="#dropdownlink">Konular</a>
                         <div class="dropdown-menu w-50 mt-0 mt-md-2 mx-auto py-0" aria-labelledby="dropdownlink">
-                            <a href="#" class="dropdown-item">Konu</a>
-                            <a href="#" class="dropdown-item">Konu</a>
-                            <a href="#" class="dropdown-item">Konu</a>
+                            <a href="konu.html" class="dropdown-item">Konu</a>
+                            <a href="konu.html" class="dropdown-item">Konu</a>
+                            <a href="konu.html" class="dropdown-item">Konu</a>
                         </div>
                     </li>
                 </ul>
-                <span class="navbar-text">
+
+                <form class="form-inline my-3 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search">
+                    <button class="btn btn-success mx-auto mt-2 my-sm-0" type="submit">Search</button>
+                </form>
+
+                <!-- <span class="navbar-text">
                     <a href="#" class="bi-facebook"></a>
                     <a href="#" class="bi-twitter mx-3"></a>
                     <a href="#" class="bi-instagram"></a>
-                </span>
+                </span> -->
             </div>
 
         </div>
@@ -68,7 +74,7 @@
                                 fugiat maiores molestias enim sint ipsa, ipsam laudantium necessitatibus
                                 asperiores
                             </p>
-                            <button class="btn btn-sm btn-outline-success mb-3"> Devamını oku</button>
+                            <a href="sayfa.html" class="btn btn-sm btn-outline-success mb-3"> Devamını oku</a>
                         </div>
 
                     </div>
@@ -192,77 +198,23 @@
         </article>
         <!-- article kapanış -->
 
-        <!-- row başlangıç -->
-        <div class="row">
-            <div class="container bg-white">
-                <div class="col-md-8 offset-md-2">
-                    <form name="contactForm" action="#" class="pt-5" id="form">
-                        <input type="text" id="name" name="name" placeholder="Adınızı ve soyadınızı giriniz."  required class="form-control">
-                        <input type="text" placeholder="Email (opsiyonel)" name="email" class="form-control my-3">
-                        <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Mesajınız."></textarea>
-                        <button type="submit" name="submit" class="btn btn-success mt-2 mb-5 mx-auto">
-                            Gönder
-                        </button>
-                    </form>
-                </div>
-                <div class="media">
-                    isim Soyisim
-                    <div class="media-body ml-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ducimus labore quos hic
-                        expedita repellendus aperiam libero rerum illum sed ullam distinctio porro quaerat, quisquam
-                        quod! Ut culpa beatae labore!
-                        <div class="media border-top pt-3">
-                            isim Soyisim
-                            <div class="media-body border-bottom ml-3">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ducimus labore quos
-                                hic expedita repellendus aperiam libero rerum illum sed ullam distinctio porro quaerat,
-                                quisquam quod! Ut culpa beatae labore!
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="media my-5">
-                    isim Soyisim
-                    <div class="media-body border-bottom ml-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ducimus labore quos hic
-                        expedita repellendus aperiam libero rerum illum sed ullam distinctio porro quaerat, quisquam
-                        quod! Ut culpa beatae labore!
-
-                    </div>
-                </div>
-                <div class="media mb-5">
-                    isim Soyisim
-                    <div class="media-body border-bottom ml-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ducimus labore quos hic
-                        expedita repellendus aperiam libero rerum illum sed ullam distinctio porro quaerat, quisquam
-                        quod! Ut culpa beatae labore!
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!--  row kapanış -->
-
     </div>
     <!-- container-fluid kapanış  -->
 
     <footer class="bg-dark pt-5 d-flex justify-content-center ">
 
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row ">
+                <div class="col-md-3 offset-md-3">
                     <ul class="list-unstyled text-center">
-                        <a href="#" class="d-block mb-1 text-light text-decoration-none">Önerilen Yazılar</a>
-                        <li><a href="#" class="text-white text-decoration-none">Yazı</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Yazı</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Yazı</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Yazı</a></li>
-
+                        <a href="#" class="d-block mb-1 text-light text-decoration-none">Bizi Takip edin</a>
+                        <li><a href="#" class="text-white d-block pt-2"><i class="bi bi-facebook"> </i></a></li>
+                        <li><a href="#" class="text-white d-block py-2"><i class="bi bi-twitter "> </i></a></li>
+                        <li><a href="#" class="text-white"><i class="bi bi-instagram"> </i></a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <ul class="list-unstyled text-center">
                         <a href="#" class="d-block mb-1 text-light text-decoration-none">Önerilen Yazılar</a>
                         <li><a href="#" class="text-white text-decoration-none">Yazı</a></li>
@@ -275,12 +227,9 @@
             </div>
 
 
-            <p class="text-center text-white mb-2"> Tüm hakları saklıdır. 2022 &copy;</p>
 
         </div>
     </footer>
-
-
 
 
     <script src="js/jquery-3.5.1.slim.min.js"></script>
