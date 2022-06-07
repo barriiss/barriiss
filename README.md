@@ -1,5 +1,5 @@
-### Hi there 👋
-merhaba dünya
+Web editörü dersi ödevi
+  Hazırlayan Barış KÜÇÜK
 
 <!--
 **barriiss/barriiss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
