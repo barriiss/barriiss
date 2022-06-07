@@ -1,5 +1,5 @@
 <h4>Web editörü dersi ödevi<h4>
-  Hazırlayan Barış KÜÇÜK
+ Hazırlayan Barış KÜÇÜK
 
 <!--
 **barriiss/barriiss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
